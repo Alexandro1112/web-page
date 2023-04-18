@@ -1,0 +1,353 @@
+
+/* Copyright (c) 2022 Alexandr Bosov Vladimirovich. */
+/*  My styles for official web page. */
+/*  You can use this styles. */
+
+body{
+    background: linear-gradient(
+    to right,
+    rgba(255, 255, 0, 0.53),
+    rgba(0, 0, 255, 0.53));
+    opacity: 0.95;
+}
+
+.label {
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: center;
+    vertical-align:middle;
+    top: -5px;
+    display: block;
+    position: absolute;
+    color: white;
+    display: block;
+    position: absolute;
+    left:320px;
+    top: -20px;
+    font-size: 30px;
+    font-family: Bangla MN;
+    width: 650px;
+    height: 80px;
+    background: black;
+    opacity: 0.75;
+    border-radius: 10px;
+    text-indent: 1.5px;
+}
+
+.label:hover {
+    transition: ease-in 0.25s;
+    width: 700px;
+    display: block;
+    position: absolute;
+    left: 300px;
+    opacity: 0.89;
+
+}
+.center_blank{
+    display: block;
+    position: absolute;
+    left: 350px;
+    background: black;
+    width: 600px;
+    height: 650px;
+    top: 99px;
+    border-radius: 10px;
+    opacity: 0.75;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.center_blank:hover{
+    transition: ease-in 0.16s;
+    opacity: 0.89;
+
+}
+
+.separator{
+display: block;
+    position: absolute;
+    left: 350px;
+    background: black;
+    width: 600px;
+    height: 35px;
+    top: 759px;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+
+.separator2{
+display: block;
+    position: absolute;
+    left: 0px;
+    background: black;
+    width: 600px;
+    height: 35px;
+    top: 1007px;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+
+.center_blank_dosie{
+    box-shadow: 2px 2px 2px 2px black;
+    display: block;
+    position: absolute;
+    left: 350px;
+    background: black;
+    width: 600px;
+    height: 950px;
+    top: 800px;
+    border-radius: 10px;
+    opacity: 0.75;
+}
+.center_blank_dosie:hover{
+    transition: ease-in 0.16s;
+    opacity: 0.85;
+
+}
+.about {
+    color: white;
+    display: block;
+    position: absolute;
+    left: 223px;
+    font-size: 30px;
+    font-family: Bangla MN;
+
+
+}
+.main {
+    color: white;
+    display: block;
+    position: absolute;
+    left:100px;
+    font-size: 30px;
+    font-family: Bangla MN;
+
+
+}
+.cv2_img{
+   display: block;
+   position: absolute;
+   left: 23px;
+   top: 470px;
+
+}
+
+.css_img{
+display: block;
+   position: absolute;
+   left: 165px;
+   top: 460px;
+
+}
+
+.html_img{
+   display: block;
+   position: absolute;
+   left: 315px;
+   top: 470px;
+
+}
+
+.numpy_img{
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 340px;
+
+}
+.bash_img{
+    display: block;
+    position: absolute;
+    left: 170px;
+    top: 350px;
+
+}
+.git_img{
+    display: block;
+    position: absolute;
+    left: 455px;
+    top: 460px;
+
+}
+.js_img{
+    display: block;
+    position: absolute;
+    left: 320px;
+    top: 335px;
+}
+
+.python_img{
+    display: block;
+    position: absolute;
+    left: 470px;
+    top: 340px;
+
+}
+h2{
+    color: white;
+    display: block;
+    position: absolute;
+    left: 10px;
+    font-size: 21px;
+    top: 90px;
+    font-family: Bangla MN;
+    text-align: center
+
+}
+
+.city_img{
+    display: block;
+    position: absolute;
+    top: 480px;
+    border: -1px;
+    left: 1px;
+    border-radius: 10px;
+
+}
+
+.end {
+    display: block;
+    position: absolute;
+    top: 90px;
+    width: 1420px;
+    height: 150px;
+    left: -350px;
+    opacity: 2;
+    background: black;
+
+}
+
+.git{
+   display: block;
+   position: absolute;
+   width: 100px;
+   height: 50px;
+   background: black;
+   opacity: 1;
+   border-color: black;
+   border-radius: 15px;
+   color: white;
+
+   top: 40px;
+   left: 540px;
+   font-family: Arial Black;
+
+}
+.git:hover{
+    width: 105px;
+    height: 55px;
+
+}
+
+.q{
+   display: block;
+   position: absolute;
+   width: 100px;
+   height: 50px;
+   background: black;
+   opacity: 1;
+   border-color: black;
+   border-radius: 15px;
+   color: white;
+
+   top: 40px;
+   left: 840px;
+   font-family: Arial Black;
+
+}
+.q:hover{
+    width: 105px;
+    height: 55px;
+
+}
+
+
+.youtube{
+   display: block;
+   position: absolute;
+   width: 100px;
+   height: 50px;
+   background: black;
+   opacity: 1;
+   border-color: black;
+   border-radius: 15px;
+   color: white;
+   top: 40px;
+   left: 390px;
+   font-family: Arial Black;
+
+}
+.youtube:hover{
+    width: 105px;
+    height: 55px;
+
+}
+
+
+.vk{
+   display: block;
+   position: absolute;
+   width: 100px;
+   height: 50px;
+   background: black;
+   opacity: 1;
+   border-color: black;
+   border-radius: 15px;
+   color: white;
+   top: 40px;
+   left: 690px;
+   font-family: Arial Black;
+
+}
+.vk:hover{
+    width: 105px;
+    height: 55px;
+}
+
+h1 {
+   color: white;
+   display: block;
+   position: absolute;
+   top: 20px;
+   left: 30px;
+   font-family: Arial Black;
+   underline: white;
+
+}
+h1:hover{
+    transition: ease-in 0.1s;
+    left: 40px;
+    height: 55px;
+    opacity: 0.5
+
+}
+.separator2{
+    color: white;
+    display: block;
+    position: absolute;
+    display: block;
+    opacity: 1;
+
+
+
+}
+
+.rev{
+color: white;
+   display: block;
+   position: absolute;
+    top: 85px;
+    left: 30px;
+    text-align: right;
+
+}
+
+.backend_icon{
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    left: 990px;
+    border-radius: 100%;
+
+
+}
