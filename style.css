@@ -403,6 +403,7 @@ h1:hover{
     font-size: 40px;
     font-family: Bangla MN;
     left: 30px;
+    text-indent: 5px;
 
 
 }
@@ -426,8 +427,7 @@ h1:hover{
     top: -93px;
     border-radius: 10px;
     opacity: 0.9;
+    
 
 
 }
-
-/*END*/
