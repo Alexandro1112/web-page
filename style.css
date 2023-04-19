@@ -7,11 +7,16 @@ body{
     background: linear-gradient(
     to right,
     rgba(255, 255, 0, 0.53),
-    rgba(0, 0, 255, 0.53));
+    rgba(20, 0, 255, 0.53)
+);
     opacity: 0.95;
+
 }
 
+
+
 .label {
+
     box-shadow: 2px 2px 2px 2px black;
     text-align: center;
     vertical-align:middle;
@@ -28,7 +33,7 @@ body{
     width: 650px;
     height: 80px;
     background: black;
-    opacity: 0.75;
+    opacity: 0.80;
     border-radius: 10px;
     text-indent: 1.5px;
 }
@@ -51,7 +56,7 @@ body{
     height: 650px;
     top: 99px;
     border-radius: 10px;
-    opacity: 0.75;
+    opacity: 0.80;
     box-shadow: 2px 2px 2px 2px black;
 }
 .center_blank:hover{
@@ -197,7 +202,7 @@ h2{
 .city_img{
     display: block;
     position: absolute;
-    top: 480px;
+    top: 450px;
     border: -1px;
     left: 1px;
     border-radius: 10px;
@@ -207,7 +212,7 @@ h2{
 .end {
     display: block;
     position: absolute;
-    top: 90px;
+    top: 790px;
     width: 1420px;
     height: 150px;
     left: -350px;
@@ -332,9 +337,9 @@ h1:hover{
 }
 
 .rev{
-color: white;
-   display: block;
-   position: absolute;
+    color: white;
+    display: block;
+    position: absolute;
     top: 85px;
     left: 30px;
     text-align: right;
@@ -351,3 +356,78 @@ color: white;
 
 
 }
+
+.city_name{
+    display: block;
+    position: absolute;
+    color: white;
+    top: 430px;
+    left: 160px;
+    font-family: Bangla MN;
+    font-size: 40px;
+    z-index: 1;
+    color: rgba(230, 255, 255);
+}
+
+.end_des{
+    display: block;
+    position: absolute;
+    font-family: Bangla MN;
+    top: 120px;
+
+
+
+}
+
+.end_of_me{
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    width: 598px;
+    height: 640px;
+    top: 45px;
+    background: black;
+    opacity: 0.85
+
+}
+.end_of_me:hover{
+    transition: ease-in 0.2s;
+    opacity: 0.95;
+
+}
+
+.label_end{
+     display: block;
+    position: absolute;
+    font-size: 40px;
+    font-family: Bangla MN;
+    left: 30px;
+
+
+}
+
+
+.prgrm_img{
+ display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 280px;
+
+}
+
+.separator3{
+    display: block;
+    position: absolute;
+    left: 350px;
+    background: black;
+    width: 602px;
+    height: 35px;
+    top: -93px;
+    border-radius: 10px;
+    opacity: 0.9;
+
+
+}
+
+/*END*/
